@@ -111,6 +111,18 @@ margin-top: 20px;
     url(background.jpg);
   background-size: cover;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: centergit;
+
+}
+
+strong{
+margin:0 auto;
+left:50%;
+transform: translateX(-50%);
+position: absolute;
+  bottom: 20px;
 }
 
 .section5 {
@@ -118,14 +130,12 @@ margin-top: 20px;
 
   position: relative;
   width: 100vw;
-  height: 50vh;
+  height: auto;
   background: white;
   background-size: cover;
   color: black;
-  display: flex;
-justify-content: center;
 
-align-items: center;
+
 
 
 }
@@ -342,6 +352,10 @@ div.desc {
     font-size: 60px;
   }
   
+  strong{
+
+    width:90vw;
+  }
 
 }
 
