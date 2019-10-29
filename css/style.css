@@ -15,6 +15,11 @@
   overflow-x: hidden;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
 
 
@@ -107,6 +112,30 @@ margin-top: 20px;
   background-size: cover;
   color: white;
 }
+
+.section5 {
+ 
+
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background: white;
+  background-size: cover;
+  color: black;
+  display: flex;
+justify-content: center;
+
+align-items: center;
+
+
+}
+
+.section5 h1{
+color:black;
+
+
+}
+
 
 .text {
   position: absolute;
@@ -325,6 +354,30 @@ div.desc {
   width: 200px;
   }
 
+  .black {
+    margin: 10px 0 0 50px;
+   
+    width: 180px;
+  }
+
+  .black:last-child {
+    margin: 10px 0 20px 50px;
+    width: 180px;
+  
+  }
+
+
+  .text {
+    position: absolute;
+  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    height: 80%;
+  }
+
+
+
 
 }
 
@@ -468,6 +521,10 @@ margin:0px 0 10px 0;
   left: 0%;
   }
 
+
+
+
+  /*  form */
 
 
 
