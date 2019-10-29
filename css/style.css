@@ -113,7 +113,7 @@ margin-top: 20px;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: centergit;
+
 
 }
 
@@ -126,25 +126,36 @@ position: absolute;
 }
 
 .section5 {
- 
-
+ margin:20px;
+padding:0px;
   position: relative;
   width: 100vw;
   height: auto;
   background: white;
   background-size: cover;
   color: black;
-
+  justify-content: center;
+  align-items: center;
 
 
 
 }
 
-.section5 h1{
-color:black;
 
-
+.section6{
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(background2.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 
 .text {
