@@ -18,6 +18,7 @@
 
 li{
   font-weight: 500 !important;
+  text-align: left;;
 }
 
 
@@ -393,7 +394,7 @@ div.desc {
 
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 420px) {
 
 
   div.gallery {
@@ -425,7 +426,7 @@ div.desc {
     position: absolute;
   
     left: 50%;
-    top: 40%;
+    top: 45%;
     transform: translate(-50%, -40%);
     height: 80%;
   }
