@@ -347,10 +347,10 @@ div.desc {
 
   .text a {
     width: 150px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 8px;
     margin-top: 30px;
-    bottom: 25%;
+    bottom: 15%;
   }
 
   .section4 span {
@@ -384,23 +384,29 @@ div.desc {
     font-size: 60px;
   }
   
+
   strong{
 
     width:90vw;
-    font-size: 9px;
+    font-size: 12px;
+    float:left;
+    display: block;
+    
   }
+
+  
 
 }
 
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
 
 
   div.gallery {
     margin: 20px;
     float: left;
-    width: 250px;
+    width: 300px;
    
   }
 
@@ -410,14 +416,14 @@ div.desc {
   }
 
   .black {
-    margin:10px 0 0 35px ;
+    margin:10px 0 0 50px ;
    
-    width: 180px;
+    width: 200px;
   }
 
   .black:last-child {
-    margin: 10px 0 20px 35px;
-    width: 180px;
+    margin: 10px 0 20px 50px;
+    width: 200px;
   
   }
 
