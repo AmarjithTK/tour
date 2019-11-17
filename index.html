@@ -418,8 +418,14 @@
   
     
 <div class="section5">
-  <h1 style=" font-size: 50px;">Gallery</h1><br>
-  <div class="row" style="font-weight: 500;">it will be available once the tour is completed</div>
+  <h1 style=" font-size: 50px;margin:20px">Gallery</h1><br>
+  <div class="row" style="font-weight: 500;margin-left:20px">it will be available once the tour is completed</div>
+
+<div class="tour--images">
+
+</div>
+
+
 </div>
 
 
@@ -477,6 +483,13 @@
 		}
 
 
+    var tourimg=document.querySelector('.tour--images');
+
+  for(var i=0;i<15;i++)
+    tourimg.innerHTML+= "<img src='t/" + 1+ ".jpg' />";
+   
+    for(var i=1000;i<1010;i++)
+    tourimg.innerHTML+= "<video controls> <source src='t/" + i+ ".mp4' /> </video>";  
 
 
 
