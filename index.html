@@ -433,7 +433,7 @@
 
 <div class="section6">
 
-<h3>&#8377; 4500 / head <br> 35 students / class </h3>
+<h3>&#8377; 4500 / head  </h3>
 
 </div>
 
@@ -466,7 +466,7 @@
       strings: [" Puthurans", " Govt hss vatakara", " Puthurans 2018-20"],
       loop: true,
       smartBackspace: true,
-      showCursor: false
+      showCursor: true
     });
 
 
@@ -485,11 +485,12 @@
 
     var tourimg=document.querySelector('.tour--images');
 
-  for(var i=0;i<15;i++)
-    tourimg.innerHTML+= "<img src='t/" + 1+ ".jpg' />";
-   
-    for(var i=1000;i<1010;i++)
-    tourimg.innerHTML+= "<video controls> <source src='t/" + i+ ".mp4' /> </video>";  
+  for(var i=1;i<150;i++){
+    tourimg.innerHTML+= " <a target='_blank' href='./t/tour (" + i + ").jpg'><img src='./t/tour (" + i + ").jpg' /></a>";
+    console.log(i)
+  }
+    // for(var i=1000;i<1010;i++)
+    // tourimg.innerHTML+= "<video controls> <source src='t/" + i+ ".mp4' /> </video>";  
 
 
 

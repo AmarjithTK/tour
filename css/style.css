@@ -3,7 +3,6 @@
 
 
 
-
 .tour--images{
   display: flex;
   justify-content: center;
@@ -19,11 +18,11 @@ width: 100vw;
   
   .tour--images img{
       opacity:1;
-      width: 300px;
-      height: 200px;
+      max-width: 400px;
+      height: 250px;
       margin: 10px;
       transition: all 0.2s;
-     background-image: linear-gradient(black,black);
+  
   }
 
   .tour--images video{
@@ -32,12 +31,12 @@ width: 100vw;
     height: 200px;
     margin: 10px;
     transition: all 0.2s;
-   background-image: linear-gradient(black,black);
+
 }
 
 
   .tour--images img:hover{
-      transform: scale(1.05);
+ transform: scale(1.1);
       opacity: 1;
   }
 
@@ -179,7 +178,7 @@ position: absolute;
   position: relative;
   width: 100vw;
   height: auto;
-  background: white;
+  background: rgb(231, 227, 227);
 
   color: black;
   margin-bottom: 50px;
@@ -368,8 +367,7 @@ div.desc {
 
 
   .tour--images img {
-    width:400px;
-    height:300px;
+  
   }
 
 
@@ -381,7 +379,7 @@ div.desc {
    
   }
 
-  img {
+  .gallery img {
     width: 350px;
     height: 250px;
     margin-bottom: 15px;
@@ -453,8 +451,7 @@ div.desc {
 
 
   .tour--images img {
-    width:250px;
-    height:150px;
+   
   }
 
   div.gallery {
