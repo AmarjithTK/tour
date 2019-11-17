@@ -10,8 +10,9 @@
  align-items: center;
   flex-wrap: wrap;
 
-overflow: hidden;
-  
+overflow: visible;
+width: 100vw;
+  height:auto;
   }
   
 
